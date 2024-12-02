@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  .content--add-item {
+    gap: 0.5rem;
+  }
+
+  #input-new-task {
+    max-width: 60%;
+  }
+
+  #btn-new-task {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content--add-item {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  #input-new-task {
+    width: 40%;
+    max-width: none;
+  }
+
+  #btn-new-task {
+    width: 50px;
+    height: 50px;
+  }
+}
